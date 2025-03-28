@@ -58,7 +58,7 @@ This project is a **Job Recommendation System** that allows users to:
 
 ### 1️⃣ Clone the Repository
 ```sh
-git clone https://github.com/yourusername/job-recommendation-system.git
+git clone https://github.com/Mohdadnan2320/JobQuest-.git
 cd job-recommendation-system
 ```
 

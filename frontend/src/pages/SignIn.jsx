@@ -178,8 +178,6 @@ const SignIn = ({ setUser, switchToSignup }) => {
         email,
         password,
       });
-
-      console.log(response);
       const data = await response.data;
       if (!response.status === 200) {
         setError(data.message || "Invalid credentials. Please try again.");

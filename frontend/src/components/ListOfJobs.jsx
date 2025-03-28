@@ -8,14 +8,13 @@ const ListOfJobs = () => {
   useEffect(() => {
     const fetchJobListings = async () => {
       const token = localStorage.getItem("token");
-      console.log(" line 11 :", token);
       try {
         const response = await axios.post(
           `${import.meta.env.VITE_BACKEND_URL}/api/service/joblist`,
-          {}, // Empty body since it's a POST request without a body
+          {}, 
           {
             headers: {
-              Authorization: `Bearer ${token}`, // ✅ Correct placement
+              Authorization: `Bearer ${token}`, 
             },
           }
         );
