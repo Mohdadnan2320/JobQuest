@@ -131,5 +131,5 @@ npm run dev
 
 ---
 
-## License
-MIT License © 2025 Your Name
+## Rights Reserved 
+All Rights Reserved © 2025 Mohd Adnan. 
